@@ -1,0 +1,18 @@
+contrast,family,n,delta,lo,hi,p,note,adj_p,verdict
+"GRAPPA - Zero-filled, Dice WT, R=8 (GLI)",primary,32,-0.10212221313915262,-0.1487423980030661,-0.06494465309132905,0.0002,classical PI vs no reconstruction,0.0012000000000000001,significant
+"SENSE - Zero-filled, Dice WT, R=8 (GLI)",primary,32,-0.6424836246433481,-0.7023600018266323,-0.578604193045383,0.0002,SENSE vs no reconstruction,0.0012000000000000001,significant
+"VarNet - Zero-filled, Dice WT, R=8 (GLI)",primary,32,0.0023022119358143307,-0.0025297267965723705,0.006601802888661431,0.308,unrolled vs no reconstruction,0.308,not significant
+"U-Net - Zero-filled, Dice WT, R=8 (GLI)",primary,32,-0.0664248860428394,-0.10303674519795597,-0.039282602818356153,0.0002,image-domain vs no reconstruction,0.0012000000000000001,significant
+"VarNet - fully sampled, Dice WT, R=1",primary,32,0.01114739906352162,0.005142622237046957,0.018598537433373592,0.0002,prior applied to fully sampled data,0.0012000000000000001,significant
+"U-Net - fully sampled, Dice WT, R=1",primary,32,-0.05617201960793512,-0.08515159771063478,-0.033484789799649445,0.0002,prior applied to fully sampled data,0.0012000000000000001,significant
+"GRAPPA - Zero-filled, Dice WT, R=8 (nnU-Net reader)",replication,32,-0.017745135192914048,-0.030927229160507247,-0.006803939810605767,0.0002,,,replicates
+"GRAPPA - Zero-filled, Dice WT, R=8 (BraTS-Africa)",replication,32,-0.12073857573422238,-0.14254858602520648,-0.1004396459404726,0.0002,,,replicates
+"SENSE - Zero-filled, Dice WT, R=8 (nnU-Net reader)",replication,32,-0.42359189024511423,-0.48999189219415723,-0.35506414143519155,0.0002,,,replicates
+"SENSE - Zero-filled, Dice WT, R=8 (BraTS-Africa)",replication,32,-0.30041186790812985,-0.3360508737460261,-0.2664376983672257,0.0002,,,replicates
+"VarNet - Zero-filled, Dice WT, R=8 (nnU-Net reader)",replication,32,0.005322332877879858,0.0004295347683993955,0.010378351373227368,0.0312,,,replicates
+"VarNet - Zero-filled, Dice WT, R=8 (BraTS-Africa)",replication,32,0.003062111372502249,-0.0013805346956759453,0.009305721216925278,0.266,,,does not replicate
+"U-Net - Zero-filled, Dice WT, R=8 (nnU-Net reader)",replication,32,-0.045207585264950965,-0.05697616407056501,-0.03508184845245032,0.0002,,,replicates
+"U-Net - Zero-filled, Dice WT, R=8 (BraTS-Africa)",replication,32,-0.031242912615441064,-0.04359099826950466,-0.021409608019486392,0.0002,,,replicates
+"VarNet - GRAPPA, Dice WT, R=8 (GLI)",exploratory,32,0.10442442507496695,0.06795966412880003,0.14905488185771246,0.0002,,,exploratory
+"U-Net - GRAPPA, Dice WT, R=8 (GLI)",exploratory,32,0.03569732709631321,0.010997636581018126,0.060804287601482404,0.0044,,,exploratory
+"SENSE+DL - SENSE, Dice WT, R=8 (GLI)",exploratory,32,0.1065686329134463,0.07609585884857938,0.13850484460936985,0.0002,,,exploratory

@@ -1,0 +1,9 @@
+numpy
+scipy
+matplotlib
+pandas
+h5py
+scikit-image
+# optional, only for src/learned_recon.py
+# torch
+# fastmri
