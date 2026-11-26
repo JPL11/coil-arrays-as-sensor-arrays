@@ -1,6 +1,6 @@
 # Receiver-Coil Arrays as Sensor Arrays: SENSE and GRAPPA as Array Processing
 
-ECE 5990 (Fall 2026). SENSE and GRAPPA are implemented **from the original
+SENSE and GRAPPA are implemented **from the original
 papers**, not called from a library, and studied as *array-processing* methods:
 the receiver-coil array is a sensor array and the coil-sensitivity map is its
 steering vector.
