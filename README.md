@@ -1,7 +1,5 @@
 # Receiver-Coil Arrays as Sensor Arrays
 
-ECE 5990 (Array Signal Processing) course project, Fall 2026, Cal Poly Pomona.
-Jacky Li and Josiah Wiggins.
 
 SENSE (Pruessmann et al., *MRM* 1999) and GRAPPA (Griswold et al., *MRM* 2002) implemented from the
 original papers, without a reconstruction library, and studied as sensor-array processing. The
